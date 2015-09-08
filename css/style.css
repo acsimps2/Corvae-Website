@@ -1,0 +1,255 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+font-family: Quicksand, Quicksand-Light, Maven Pro, Robotica, sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+@font-face{
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.otf);
+    
+    font-family: Quickstand-Light;
+    src: url(fonts/Quicksand-Light.otf);
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#navBar{
+margin-top:0px;
+}
+.splashBox{
+    margin:0px
+    width:100%;
+}
+.splashImg{
+    width:90%;
+    left:10%;
+}
+#teamBox{
+    margin-top:15%;
+}
+#titleBox{
+    text-align: center;
+    color: #444;
+    font-size: 3rem;
+    text-decoration:underline;
+    font-weight:400;
+    
+}
+.container{
+    width:100%;
+    margin:0px;
+    margin-top:10%;
+    padding:0px;
+    max-width:2000px;
+}
+
+
+.rowPics{
+    overflow:hidden;
+}
+.rowPics>img{
+    width:120%;
+    min-height:400px;
+}
+.logoBox{
+    margin:10%;
+}
+
+
+
+
+.row>.rowPicsBox{
+    padding: 0 0.25rem;
+    min-height: 400px;
+}
+
+.photoBox{
+    padding:0px;
+    margin:0px;
+}
+
+.photo{
+width:100%;
+}
+
+#photoRow .photoBox{
+    padding: 0em;
+    }
+.logo{
+    width:100%;
+    height:100%;
+}
+.Wallop {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    overflow: hidden;
+    }
+
+.Wallop-item img { width: 100%; }
+
+.WButton{
+    border: none;
+    background: hsla(0,0%,0%,0);
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 0px 15px 0px 15px;
+}
+
+.WButton>*{
+    height:60px;
+    width: 30px;
+    
+}
+.splashBlurb{
+    position: absolute;
+    color: white;
+    opacity:1;
+    width:40%;
+    left:30%;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    font-size:3rem;
+}
+.overlay{   
+    position:absolute;
+    background-color:black;
+    opacity:.3;
+    width:100%;
+    top: 0%;
+    bottom: 0%; 
+}
+.teamBlurb{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight:200;
+}
+
+#contactBlurb{
+    text-align: center;
+    font-size: 4em;
+    color:#EEEEEE;
+    transform: translateY(-100%);
+}
+
+.Wallop-buttonPrevious{
+    left: 1pc;
+}
+.Wallop-buttonNext{
+    right: 1px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+
+
+footer.page-footer {
+  margin: 0;
+}
+
+.icon{
+    width:100%;
+    height:300px;
+}
+
+
+#logo-container {
+  height: 100%;
+}
+#logo-container>img {
+  height: 100%;
+}
+.text-color {
+  color: #307abc;
+}
+.timeline-container {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline-container img {
+  width: 100%;
+  display: block;
+  margin: 75px auto;
+}
+.timeline-container div {
+  position: absolute;
+  max-width: 100px;
+}
+.timeline-container div p {
+  line-height: 1.2rem;
+  text-align: center;
+}
+.timeline-container div h3 {
+  margin: 0;
+}
+.team-photo {
+  max-width: 100%;
+}
+.press-link {
+  color: #307abc;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+.press-link:hover {
+  color: #20517d;
+}
+.press-link>p {
+  display: inline;
+}
+.social-link:hover {
+  color: #9e9e9e;
+}
+.profile-link:hover {
+  color: #666 !important;
+  cursor: pointer;
+}
+
